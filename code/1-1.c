@@ -16,5 +16,10 @@ int main(void) {
     printf("%d / %d = %d\n",a, b, a/b);
   }
 
+  add(a,b);
+  subtract(a,b);
+  multiply(a,b);
+  divide(a,b);
+
 return 0;
 }
