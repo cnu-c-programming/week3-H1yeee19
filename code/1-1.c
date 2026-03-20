@@ -1,4 +1,4 @@
-#include <studo.h>
+#include <stdio.h>
 
 int main(void) {
   int a = 10, b =5;
