@@ -3,8 +3,8 @@
 void swap(int *x, int *y) {
   int a = *x;
   int b = *y;
-  int x = b;
-  int y = a;
+  int *x = b;
+  int *y = a;
 }
 
 int main() {
