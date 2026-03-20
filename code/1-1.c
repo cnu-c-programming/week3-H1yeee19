@@ -6,7 +6,15 @@ int main(void) {
   int add(int a, int b) {
     printf("%d + %d = %d",a, b, a+b);
   }
+  int subtract(int a, int b) {
+    printf("%d - %d = %d",a, b, a-b);
+  }
+  int multiply(int a, int b) {
+    printf("%d * %d = %d",a, b, a*b);
+  }
+  int divide(int a, int b) {
+    printf("%d / %d = %d",a, b, a/b);
+  }
 
-  
 return 0;
 }
