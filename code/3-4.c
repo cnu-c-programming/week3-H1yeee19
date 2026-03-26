@@ -4,9 +4,10 @@
 int max_of(int count, ...) {
   va_list ap;
   va_start(ap, count);
-  int max = 0;
+  int max = va_arg(ap, int);
   for (int i=0; i<count; i++) {
-    if (max < va_arg(ap, int))
+    int current = va_arg(ap, int);
+    if (max < current)
       max = va_arg(ap, int);
   }
   va_end(ap);
