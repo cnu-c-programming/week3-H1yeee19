@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdarg.h.>
+#include <stdarg.h>
 
 int average(int count, ...) {
   va_list ap;    //파라미터 주소?
@@ -10,10 +10,10 @@ int average(int count, ...) {
   int av = 0;
   av = total/ count;
   va_end(ap);
+  
   return av;
-  
-  
 }
+
 int main() {
   printf("%d\n", average(3, 10, 20, 30));
   printf("%d\n", average(5, 10, 20, 30, 40, 50));
