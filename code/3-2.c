@@ -13,3 +13,13 @@ void test_scope() {
   printf("static_var: %d\n", static_var);
   printf("local_var: %d\n", local_var);
 }
+
+int main() {
+  test_scope();
+  printf("\n");
+  test_scope();
+  printf("\n");
+  test_scope();
+
+  return 0;
+}
